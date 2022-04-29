@@ -66,6 +66,10 @@ nav{
 
 
 
+
+
+
+
 /* Home CSS */
 .home_section{
   height: 100vh;
@@ -421,6 +425,74 @@ table{
 
 
 
+/* OUR GALLERY CSS */
+.our_gallary_container{
+  padding: 8%;
+  min-height: 100vh;
+  color: #222;
+}
+.our_gallary_title{
+  padding-bottom: 5%;
+}
+.project_card{
+  border: solid lightgray 1px;
+  width: 100%;
+  border-radius: 5px;
+  transition-duration: 0.3s;
+  background-color: white;
+}
+.project_card:hover{
+  z-index: 200;
+  scale: 1.1;
+}
+
+.project_card_header{
+  height: 150px;
+  width: 100%;
+  border-bottom: solid lightgray 1px;
+  border-radius: 5px 5px 0px 0px;
+  background-image: url('./projects/flip/1.jpg');
+  background-size: cover;
+}
+
+.project_card_body{
+  padding: 15px;
+}
+.project_card_title{
+  font-weight: bold;
+}
+.project_card_about{
+  font-size: 14px;
+}
+.project_card_button{
+  background-color: var(--cta);
+  display: inline-block;
+  width: 100%;
+  padding: 5px;
+  margin-top: 15px;
+  border-radius: 4px;
+  color: white;
+}
+.project_card_button:hover{
+  color:white;
+}
+.one_project_container{
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Admin CSS */
 .dashboard_section{
   padding: 8%;
@@ -450,7 +522,7 @@ table{
   background-color: gray;
   top: 23px;
   z-index: 102;
-  right: 47%;
+  right: 49%;
   height: 30px;
   width: 30px;
   padding-top: 3px;
@@ -579,6 +651,16 @@ table{
   background-color: #222;
 }
 
+#dark .our_gallary_container{
+  background-color: #222;
+  color: white;
+}
+#dark .project_card_button{
+  color: #222;
+}
+#dark .project_card{
+  background-color: #222;
+}
 
 
 
@@ -708,6 +790,7 @@ table{
   .mode_switcher{
     top: 20px;
     padding: 4px;
+    right: 46%;
   }
   .right_align{
     text-align: center;
@@ -850,6 +933,12 @@ table{
   }
   .contact_more_info{
     text-align: left;
+  }
+  .our_gallary_container{
+    padding-top: 100px;
+  }
+  .one_project_container{
+    padding: 0px;
   }
 
 
