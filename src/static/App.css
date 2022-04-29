@@ -1,0 +1,868 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+:root{
+  --cta : #6bb09f;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family:  "ITC Avant Garde Gothic", sans-serif;
+  cursor: default;
+  outline: none;
+}
+.row{
+  width: 100%;
+}
+i{
+  font-style: normal;
+}
+a{
+  text-decoration: none;
+  color: dimgray;
+}
+a:hover{
+  text-decoration: none;
+  color: #363636;
+}
+/* Navbar CSS */
+nav{
+  padding-top: 20px;
+  z-index: 100;
+  position: fixed;
+  background-color: #ffffff;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.nav_buttons_container{
+  text-align: center;
+}
+.nav_contact_us_container{
+  text-align: right;
+}
+.nav_logo{
+  height: 35px;
+  text-align: left;
+}
+.nav_logo img{
+  height: 100%;
+}
+.navbar_button{
+  display: inline-block;
+  height: 40px;
+  padding: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 500;
+  color: dimgray
+}
+.navbar_button_contact_us{
+  border: solid dimgray 1px;
+  width: 150px;
+  text-align: center;
+}
+
+
+
+
+/* Home CSS */
+.home_section{
+  height: 100vh;
+}
+.home_section{
+  padding-top: 10%;
+}
+.home_logo_container img{
+  height: 200px;
+}
+.home_section h1{
+  margin: 15px;
+  font-weight: 700;
+}
+.home_section p{
+  color: gray;
+}
+.call_to_action{
+  margin-top: 30px;
+  display: inline-block;
+  color: var(--cta);
+  font-size: 18px;
+  font-weight: 700;
+}
+.call_to_action:hover{
+  color: var(--cta);
+}
+.call_to_action img{
+  height: 20px;
+  margin-left: 15px;
+}
+.to_gallary_button{
+  text-align: center;
+  width: 100%;
+  padding-top: 20px;
+}
+.nav_actions{
+  text-align: right;
+  height: 100%;
+}
+.navbar-button{
+  display: inline-block;
+  line-height: 100%;
+  padding: 12px;
+  text-align: right;
+}
+
+
+
+
+
+/* About CSS */
+.about_section{
+  height: 100vh;
+  text-align: left;
+  padding: 8%;
+}
+
+.about_title{
+  font-weight: 700;
+  display: inline;
+  font-size: 23px;
+}
+.about_icon{
+  height: 80px;
+  display: inline;
+}
+.underlined{
+  border-bottom: solid var(--cta) 3px;
+}
+.about_text_container{
+  border-left: solid #b8b7b7 1px;
+  color: gray;
+  padding: 20px;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.get_in_touch{
+  padding-top: 15%;
+}
+.second_section{
+  padding-top: 5%;
+}
+.our_mv_img{
+  text-align: right;
+}
+.our_mv_img img{
+  height: 50px;
+  position: absolute  ;
+  bottom: 0px;
+}
+
+
+
+
+
+/* Clients CSS */
+.clients_section{
+  padding: 5%;
+}
+.review{
+  width: 90%;
+  border: solid lightgray 1px;
+  padding: 25px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  text-align: left;
+}
+.review_img{
+  width: 60px;
+  border-radius: 60px;
+  margin-top: -70px;
+  border: solid  lightgray 1px;
+}
+.review_content{
+  text-align: justify;
+  font-size: 13px;
+}
+.review_owner{
+  font-size: 12px;
+}
+
+
+
+
+
+/* Gallery CSS */
+.gallary_section{
+  height: 100vh;
+  padding: 20px;
+  padding: 8%;
+}
+.out_there_title_container{
+  padding-bottom: 20px;
+}
+.out_there_title_container .about_title{
+  font-size: 29px;
+}
+.gallery_slider_side{
+  width: 100%;
+  padding: 0px;
+}
+.gallary_content_side{
+  text-align: left;
+}
+.content_col{
+  padding-left: 15px;
+}
+.galary_slider_img{
+  width: 75%;
+  margin-top: 10%;
+}
+.slider{
+  height: 100%;
+  padding-top: 0px;
+}
+.slide{
+  transform: scale(0.2);
+  transition: transform 300ms;
+  opacity: 0.5;
+}
+.activeSlide{
+  transform: scale(1.1);
+  opacity: 1;
+}
+.arrow{
+  display: inline-block;
+  position: absolute;
+  z-index: 10;
+  cursor: pointer;
+}
+.next{
+  right: 0;
+  top: 49%
+}
+.prev{
+  left: 0;
+  top: 49%
+}
+.logos_slider .next{
+  top: 22px;
+}
+.logos_slider .prev{
+  top: 22px;
+}
+
+
+
+
+/* Team CSS */
+.team_section{
+  padding: 8%;
+}
+.team_title_container{
+  text-align: left;
+  padding-bottom: 70px;
+}
+.team_member_img_container{
+  /* background-color: #ebebeb; */
+  border: solid lightgray 1px;
+  height: 150px;
+  width: 150px;
+  border-radius: 200px;
+  margin-bottom: 10px;
+}
+.team_member_img_container img{
+  height: 100%;
+  padding: 10%;
+}
+.team_member_name i{
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+/* Contact us CSS */
+.our_information{
+  color: #222;
+  padding-top: 10%;
+}
+.contact_more_info{
+  text-align: justify;
+}
+
+
+
+
+
+/* Footer CSS */
+footer{
+  background-color: rgb(17, 17, 17);
+  color: white;
+  padding: 8%;
+}
+.footer_part_one{
+  width: 100px;
+  text-align: left;
+}
+.footer_part_two{
+  width: 100px;
+  text-align: left;
+}
+.footer_part_three{
+  width: 100%;
+  text-align: left;
+}
+.social_media_icons{
+  padding-top: 15px;
+  text-align: right;
+}
+.social_media_icons i{
+  margin: 10px;
+  cursor: pointer;
+  font-size: 19px;
+}
+
+
+
+
+
+
+/* Our clients CSS */
+.our_clients_container{
+  padding: 5%;
+}
+.logos_slider{
+  height: 100px;
+}
+.logo_slide{
+  height: 50px;
+  margin-top: 10%;
+}
+table{
+  text-align: left;
+}
+.reviews_title_container{
+  text-align: left;
+  padding: 3%;
+  padding-bottom: 5%;
+}
+
+
+
+
+
+
+/* Contact Css */
+.contact_us_container{
+  height: 100vh;
+}
+.form_input{
+
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: none;
+  border: solid gray 1px;
+  width: 90%;
+  max-width: 300px;
+}
+.textarea_input{
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: none;
+  border: solid gray 1px;
+  border-radius: 4px;
+  min-width: 90%;
+  min-height: 100px;
+  max-height: 100px;
+  max-width: 300px;
+}
+.our_information i{
+  padding: 3px;
+  display: inline-block;
+}
+.contact_information{
+  width: 95%;
+  max-width: 300px;
+  text-align: left;
+}
+.contact_form_container{
+  width: 95%;
+  max-width: 300px;
+  text-align: left;
+}
+.contact_information{
+  margin-bottom: 10px;
+}
+.input_field{
+  padding-bottom: 10px;
+}
+.input_field button{
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: none;
+  background-color: var(--cta);
+  border: none;
+  color: white;
+  cursor: pointer;
+  /* border: solid gray 1px; */
+  min-width: 90%;
+  max-width: 300px;
+  border-radius: 4px;
+}
+
+
+
+
+/* Admin CSS */
+.dashboard_section{
+  padding: 8%;
+  min-height: 100vh;
+}
+.msg_container{
+  border: solid lightgray 1px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.msg_container p{
+  margin: 0px;
+}
+
+
+
+
+
+
+
+
+.mode_switcher{
+  background-color: #00000000;
+  border: none;
+  position: fixed;
+  background-color: gray;
+  top: 23px;
+  z-index: 102;
+  right: 47%;
+  height: 30px;
+  width: 30px;
+  padding-top: 3px;
+  border-radius: 50px;
+  cursor: pointer;
+  color: white;
+  background-color: #222;
+}
+
+
+.right_align{
+  text-align: right;
+}
+.navbar-nav{
+  position: absolute;
+  right: 0px;
+  text-align: right;
+  padding-right: 8%;
+}
+.navbar{
+  padding: 20px;
+  padding-left: 8%;
+  background-color: white;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+}
+.navbar-collapse{
+  display: block;
+}
+
+
+
+
+/* ###################################################################################
+    ##################################################################################
+    ##################################################################################
+    ##################################################################################
+    ##################################################################################
+    ##################################################################################
+    ##################################################################################
+ */
+
+ /* Dark mode */
+ #dark .home_section{
+  background-color: #222;
+  color: whitesmoke;
+}
+#dark .about_section{
+  background-color: #222;
+  color: whitesmoke;
+}
+#dark .clients_section{
+  background-color: #222;
+  color: whitesmoke;
+}
+#dark .gallary_section{
+  background-color: #222;
+  color: whitesmoke;
+}
+#dark .team_section{
+  background-color: #222;
+  color: whitesmoke;
+}
+#dark .navbar{
+  background-color: #222;
+  color: whitesmoke;
+}
+#dark .mode_switcher{
+  background-color: white;
+  color: #222;
+}
+#dark .navbar_button{
+  color: whitesmoke;
+}
+#dark .navbar_button_contact_us{
+  border-color: whitesmoke;
+  color: whitesmoke
+}
+#dark .about_text_container{
+  color: whitesmoke;
+}
+#dark .team_member_img_container{
+  background-color: whitesmoke;
+}
+#dark .contact_us_container{
+  background-color: #222;
+  color: white
+}
+#dark .about_title{
+  color: whitesmoke;
+}
+#dark .contact_information i{
+  color: whitesmoke;
+}
+#dark .dashboard_section{
+  background-color: #222;
+  color: white
+}
+#dark .navbar-nav{
+  background-color: #222;
+  color: white
+}
+#dark .navbar-toggler{
+  color: whitesmoke;
+  border: none
+}
+#dark .mobile_nav_switcher{
+  background-color: #222;
+}
+#dark .textarea_input{
+  background-color: #222;
+  color: white;
+}
+#dark .input_field button{
+  color: #222;
+}
+#dark .our_information{
+  background-color: #222;
+}
+#dark .form_input{
+  background-color: #222;
+  color: white;
+}
+#dark nav{
+  background-color: #222;
+}
+
+
+
+
+
+
+
+
+.form_input{
+  border-radius: 4px;
+}
+.modal_container{
+  position: fixed;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  z-index: 105;
+  background-color: #2222229d;
+  text-align: center;
+  padding: 30%;
+  padding-top: 10%;
+}
+.msg_modal{
+  background-color: white;
+  text-align: center;
+  padding: 40px;
+  border-radius: 10px;
+  top: 10%;
+  z-index: 110;
+}
+.modal_button{
+  display: inline-block;
+  background-color: var(--cta);
+  width: 100%;
+  color: white;
+  border-radius: 5px;
+  padding: 8px;
+}
+.type_buttons_container{
+  margin-bottom: 20px;
+  margin-top: 10px;
+  width: 90%;
+  background-color: lightgray;
+  border-radius: 4px;
+
+  padding: 3px;
+}
+.type_button{
+  width: 50%;
+  display: inline;
+  font-size: 13px;
+  background-color: dimgray;
+  height: 100%;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  background-color: lightgray;
+  cursor: pointer;
+  outline: none;
+}
+.type_button_active{
+  background-color: var(--cta);
+}
+
+
+.input_field select{
+  width: 90%;
+  text-align: center;
+  height: 35px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: solid lightgray 1px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: lightgray;
+}
+
+
+
+
+.navbar-toggler{
+  outline: none;
+}
+.burger_button{
+  display: none;
+}
+
+
+
+
+@media (min-width: 170px) and (max-width: 860px) {
+  /* Navbar CSS */
+  .navbar_button{
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  .navbar-nav{
+    width: 100%;
+    padding: 10%;
+    background-color: white;
+  }
+  .nav_buttons_container{
+    width: 100%;
+    border: solid #222 1px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 60px;
+    position: absolute;
+    background-color: white;
+    width: 85%;
+  }
+  nav{
+    position: sticky;
+  }
+  .mobile_nav{
+    display: none;
+  }
+  .burger_button{
+    display: block;
+    position: fixed;
+    top: 30px;
+    right: 35px;
+    background-color: white;
+    border: none;
+  }
+  .mode_switcher{
+    top: 20px;
+    padding: 4px;
+  }
+  .right_align{
+    text-align: center;
+  }
+  .modal_container{
+    padding: 10%;
+    padding-top: 35%;
+  }
+  .full_width_mobile{
+    text-align: justify;
+    padding-right: 0px;
+  }
+  /* Home */
+  .home_section{
+    height: fit-content;
+    padding-top: 75px;
+  }
+  .home_logo_container img{
+    width: 100px;
+    height: 200px;
+  }
+  .home_section h1{
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .home_section p{
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  .call_to_action{
+    font-size: 16px;
+    margin-top: 5px;
+  }
+
+  
+  /* About */
+  .about_section{
+    height: fit-content;
+    padding-top: 60px;
+  }
+  .about_title{
+    font-size: 18px;
+  }
+  .about_icon{
+    height: 50px;
+  }
+  .about_text_container{
+    margin: 0px;
+    width: 100%;
+  }
+  .call_to_action img{
+    height: 15px;
+    margin-left: 8px;
+  }
+  .get_in_touch {
+    padding-top: 15px;
+    padding-left: 10%;
+    text-align: center;
+    padding-bottom: 15%;
+  }
+  .about_text_container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .our_mv_img{
+    width: 100%;
+  }
+  .our_mv_img img{
+    width: 45px;
+  }
+  .reviews{
+    padding-top: 30px;
+  }
+  .review{
+    margin-bottom: 50px;
+  }
+  .logos_slider{
+    height: 60px;
+    padding: 10px;
+  }
+  .logo_slide{
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+  }
+  .slider{
+    padding-top: 0px;
+  }
+  .gallary_content_side{
+    padding-top: 15%;
+    padding-right: 0px;
+  }
+  .content_col{
+    padding-right: 0px;
+  }
+  .gallary_content_side .get_in_touch{
+    padding-bottom: 0px;
+  }
+  .team_title_container{
+    padding-bottom: 50px;
+  }
+  .team_member{
+    padding-bottom: 30px;
+  }
+  .team_member_img_container{
+    width: 130px;
+    height: 130px;
+  }
+  .footer_part_one{
+    width: 50%;
+    padding-right: 0px;
+  }
+  .footer_part_two{
+    width: 50%;
+    padding-right: 0px;
+  }
+  .footer_part_two i{
+    font-size: 12px;
+  }
+  .footer_part_three i{
+    font-size: 12px;
+  }
+  .footer_part_three{
+    padding-top: 25px;
+  }
+  .social_media_icons i{
+    font-size: 15px;
+  }
+  .input_field input{
+    width: 100%;
+  }
+  .input_field textarea{
+    width: 100%;
+  }
+  .input_field button{
+    width: 100%;
+  }
+  .type_buttons_container{
+    width: 100%;
+  }
+  .contact_more_info{
+    text-align: left;
+  }
+
+
+
+
+  .clients_section{
+    height: fit-content;
+  }
+  .gallary_section{
+    height: fit-content;
+  }
+  .team_section{
+    height: fit-content;
+  }
+
+}
